@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include edoor_frontdesk *.css
+recursive-include edoor_frontdesk *.csv
+recursive-include edoor_frontdesk *.html
+recursive-include edoor_frontdesk *.ico
+recursive-include edoor_frontdesk *.js
+recursive-include edoor_frontdesk *.json
+recursive-include edoor_frontdesk *.md
+recursive-include edoor_frontdesk *.png
+recursive-include edoor_frontdesk *.py
+recursive-include edoor_frontdesk *.svg
+recursive-include edoor_frontdesk *.txt
+recursive-exclude edoor_frontdesk *.pyc
