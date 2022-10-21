@@ -193,3 +193,5 @@ app_license = "MIT"
 # Recommended only for DocTypes which have limited documents with untranslated names
 # For example: Role, Gender, etc.
 # translated_search_doctypes = []
+
+website_route_rules = [{'from_route': '/doppioui/<path:app_path>', 'to_route': 'doppioui'}, {'from_route': '/frontdesk/<path:app_path>', 'to_route': 'frontdesk'}, {'from_route': '/dashboard/frontdesk', 'to_route': 'dashboard'},]
